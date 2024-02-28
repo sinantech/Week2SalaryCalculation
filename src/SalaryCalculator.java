@@ -5,7 +5,7 @@ public class SalaryCalculator {
         Employee first = new Employee("Sinan",30000,55,2003);
 
         // These methods called from the class thanks for watching...
-
+        // I did not use the toString method because I don't need
         first.employeeParameters();
         first.printTaxes();
         first.salaryRaise();
