@@ -45,6 +45,7 @@ public class Employee {
         System.out.println("Taxes : " + taxes());
 
     }
+
     // salary rise depends on the work year
     double salaryRaise() {
         if ((2024 - this.hireYear) < 10) {
@@ -66,6 +67,7 @@ public class Employee {
     void printSalaryRaise() {
         System.out.println("Salary Raise : " + salaryRaise());
     }
+
     // bonus calculation
     double bonus() {
         if ((this.workHour > 40)) {
@@ -74,10 +76,12 @@ public class Employee {
             return 0;
         }
     }
+
     //print at main method
-    void printBonus () {
+    void printBonus() {
         System.out.println("Bonus : " + bonus());
     }
+
     // this method prints all the parameters at the main method after calculations
     void EmployeeSalary() {
         System.out.println("***********************");
